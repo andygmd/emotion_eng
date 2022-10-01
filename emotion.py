@@ -1,4 +1,6 @@
 import NRC,tex
+from pygoogletranslation import Translator
+
 def emo(text):
     ncrl=NRC.nrcdectect(text)
     te=tex.texdectect(text)
@@ -11,3 +13,7 @@ def emo(text):
             ans.append(te[0])
     else :
         ans.append("undefined")
+
+def transform(text):
+    translator = Translator()
+    emo(translator.translate(text, dest='en'))
