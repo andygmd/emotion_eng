@@ -1,2 +1,0 @@
-pip install NRCLex
-pip install text2emotion
