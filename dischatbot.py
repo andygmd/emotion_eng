@@ -52,4 +52,4 @@ async def on_message(message):
         await message.channel.send(ans)
 
 
-bot.run("OTk0ODk4OTcwMDg4MzA4NzQ2.Gr1OXL.RDU1J9Qxw7l5vmWpOiZoHN8tDEz6u6HO8m_aa0")
+bot.run()
